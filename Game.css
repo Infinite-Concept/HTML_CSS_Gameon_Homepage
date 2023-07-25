@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: radial-gradient(#f9d349 20%, #d57e12);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero{
+    width: 90%;
+    background-color: rgba(0,0,0,0.1);
+    height: 90vh;
+    padding: 10px 10%;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    color: #fff;
+    font-weight: 700;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}
+
+ul{
+    display: flex;
+}
+
+ul li{
+    padding: 20px;
+}
+ul li a{
+    color: #fff;
+}
+
+ul li a:hover{
+    border-bottom: 2px solid #fff;
+}
+
+button{
+    border-radius: 20px;
+    border: 1px solid #fff;
+    background: transparent;
+    color: #fff;
+    padding: 7px 15px;
+}
